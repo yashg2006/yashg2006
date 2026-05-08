@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=7B61FF&center=true&vCenter=true&width=600&lines=Hi,+I'm+Yash+G;AI+%26+Full+Stack+Engineer;Exploring+Quantum+Feature+Fusion;Building+Streeva+%26+MorphGuard" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=7B61FF&center=true&vCenter=true&width=600&lines=Hi,+I'm+Yash+G;AI+%26+Full+Stack+Engineer;Exploring+Machine+Learning;Building+Full Stack+%26+Apps" />
 </p>
 
 ---
@@ -11,7 +11,7 @@
 ### 🪐 The Mission
 I am a developer focused on the intersection of **Advanced System Architecture** and **Quantum-inspired AI**. I build tools that aren't just functional, but feel like they are from the future.
 
-- 🔭 **Current Focus**: Scaling [Streeva](https://github.com/yashg2006) & [MorphGuard](https://github.com/yashg2006)
+- 🔭 **Current Focus**: Scaling Web based apps.
 - 🧠 **Researching**: Quantum Feature Fusion & Agentic Workflows
 - 💬 **Ask me about**: Python, FastAPI, and UI/UX Logic
 
