@@ -1,0 +1,25 @@
+name: Tic-Tac-Toe Game
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'tttr:')
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Play Tic-Tac-Toe
+        uses: mikhail-v-p/tic-tac-toe-readme@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Close Issue
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'close-issue'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
