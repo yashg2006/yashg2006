@@ -33,10 +33,24 @@ I am a developer focused on the intersection of **Advanced System Architecture**
 
 ---
 
+### 🏆 Excellence Badges
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yashg2006&theme=dracula&no-bg=true&no-frame=true&margin-w=15" />
+</p>
+
+---
+
 ### 🛠️ Tech Ecosystem
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,py,fastapi,docker,git,supabase,mongodb,pydantic" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,py,fastapi,docker,git,supabase,mongodb,pydantic,aws,nginx" />
 </p>
+
+---
+
+### ⚡ Recent Activity
+<!-- START_SECTION:activity -->
+*Currently fetching latest activity...*
+<!-- END_SECTION:activity -->
 
 ---
 
@@ -47,13 +61,7 @@ I am a developer focused on the intersection of **Advanced System Architecture**
 
 ---
 
-### 🎵 Current Vibe
-<p align="center">
-  <img src="https://novatorem.vercel.app/api/spotify?user=yashg2006" />
-</p>
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=yashg2006&color=7B61FF&style=flat-square&label=VORTEX+VISITORS" />
 </p>
+
