@@ -47,13 +47,6 @@ I am a developer focused on the intersection of **Advanced System Architecture**
 
 ---
 
-### ⚡ Recent Activity
-<!-- START_SECTION:activity -->
-*Currently fetching latest activity...*
-<!-- END_SECTION:activity -->
-
----
-
 ### 🐍 Activity Snake
 <p align="center">
   <img src="https://raw.githubusercontent.com/yashg2006/yashg2006/output/github-contribution-grid-snake.svg" />
