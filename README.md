@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yashg2006/yashg2006/main/assets/banner.png" width="100%" />
-</p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=7B61FF&center=true&vCenter=true&width=600&lines=Hi,+I'm+Yash+G;AI+%26+Full+Stack+Engineer;Exploring+Machine+Learning;Building+Full Stack+%26+Apps" />
