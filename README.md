@@ -102,7 +102,7 @@ const yash = {
 <br/>
 
 <!--START_SECTION:activity-->
-<!-- This section will be automatically updated by GitHub Actions -->
+1. 🔒 Closed issue [#1](https://github.com/Dhanika-Bhat/Streeva_app/issues/1) in [Dhanika-Bhat/Streeva_app](https://github.com/Dhanika-Bhat/Streeva_app)
 <!--END_SECTION:activity-->
 
 </details>
