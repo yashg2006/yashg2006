@@ -253,23 +253,9 @@ const yash = {
 
 ## 🎵 Vibing To
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=https://open.spotify.com/user/31yn6oywqwvzstk3xstnqgjzkq7e&redirect=true)
 
 *🎧 Music fuels my code!*
-
-</div>
-
----
-
-<div align="center">
-
-## 🌟 Support My Work
-
-If you like my projects, consider giving them a ⭐ or supporting me!
-
-<a href="https://www.buymeacoffee.com/yashg2006">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
-</a>
 
 </div>
 
