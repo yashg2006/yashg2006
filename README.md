@@ -214,12 +214,6 @@ const yash = {
 ### 📧 Email: `9e23.yashgharat22@gmail.com`
 
 <br/>
-
-<!-- Wakatime Stats -->
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=yashg2006&layout=compact&theme=tokyonight&hide_border=true" alt="Wakatime Stats"/>
-
-</div>
-
 ---
 
 <div align="center">
