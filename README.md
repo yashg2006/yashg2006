@@ -278,9 +278,6 @@ const yash = {
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=yashg2006&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&custom_title=GitHub%20Stats" alt="stats"/>
-    </td>
-    <td>
       <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding GIF"/>
     </td>
   </tr>
