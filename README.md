@@ -253,7 +253,7 @@ const yash = {
 
 ## 🎵 Vibing To
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=https://open.spotify.com/user/31yn6oywqwvzstk3xstnqgjzkq7e&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31yn6oywqwvzstk3xstnqgjzkq7e&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31yn6oywqwvzstk3xstnqgjzkq7e&redirect=true)
 
 *🎧 Music fuels my code!*
 
