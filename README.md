@@ -8,14 +8,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=36BCF7FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=Software+Engineer+%7C+ML+Enthusiast;Building+the+Future%2C+One+Commit+at+a+Time;Open+Source+Contributor+%F0%9F%92%BB" alt="Typing SVG" />
 </a>
 
-<br/>
 
-<!-- Animated Snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yashg2006/yashg2006/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yashg2006/yashg2006/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yashg2006/yashg2006/output/github-contribution-grid-snake.svg">
-</picture>
 
 <br/><br/>
 
