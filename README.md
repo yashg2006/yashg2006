@@ -229,20 +229,6 @@ const yash = {
 
 </div>
 
----
-
-<div align="center">
-
-## 📚 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<!-- This section will be automatically updated with your latest blog posts -->
-<!-- BLOG-POST-LIST:END -->
-
-</div>
-
----
-
 <div align="center">
 
 ## 🎵 Vibing To
