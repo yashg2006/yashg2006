@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+  <title id="t">Yash Gharat, engineer, AI and robotics</title>
+  <desc id="d">An engineering-drawing style header: a two-link planar robot arm with its joint angles and link lengths dimensioned, the forward kinematics equations, a planned path to a target, and a title block with Yash Gharat's name and focus areas.</desc>
+  <style>
+    .ink { stroke: #E8F0F8; stroke-width: 1.6; }
+    .thin { stroke: #E8F0F8; stroke-width: 0.9; fill: none; }
+    .frame { stroke: #C9DAEA; }
+    .cons { stroke: #6F93B5; stroke-width: 1; stroke-dasharray: 6 4; fill: none; }
+    .center { stroke: #6F93B5; stroke-width: 0.8; stroke-dasharray: 12 3 2 3; }
+    .link { fill: #0E2742; }
+    .acc { stroke: #FFB45C; stroke-width: 1.4; fill: none; }
+    .mono, .zone, .lbl, .val, .sym, .eq, .kick { font-family: ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .zone { font-size: 9px; fill: #93B4D2; }
+    .lbl { font-size: 9.5px; fill: #93B4D2; letter-spacing: 1px; }
+    .val { font-size: 13.5px; fill: #E8F0F8; }
+    .sym { font-size: 17px; fill: #E8F0F8; font-style: italic; }
+    .subs { font-size: 11px; }
+    .eq { font-size: 13px; fill: #E8F0F8; }
+    .kick { font-size: 11.5px; fill: #93B4D2; letter-spacing: 2.5px; }
+    .name { font-family: ui-sans-serif, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 66px; font-weight: 650; fill: #E8F0F8; letter-spacing: -1px; }
+    .tag { font-family: ui-sans-serif, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 20px; fill: #93B4D2; }
+    .accent-text { fill: #FFB45C; }
+  </style>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#163657" stroke-width="1"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 1.5 L10 5 L0 8.5 z" fill="#E8F0F8"/>
+    </marker>
+    <marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 1.5 L10 5 L0 8.5 z" fill="#FFB45C"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="380" rx="6" fill="#0E2742"/>
+  <rect x="22" y="22" width="1156" height="336" fill="url(#grid)"/>
+  <rect class="frame" x="10" y="10" width="1180" height="360" fill="none" stroke-width="1.6"/>
+  <rect class="frame" x="22" y="22" width="1156" height="336" fill="none" stroke-width="0.8"/>
+  <g>
+    <text class="zone" x="118.3" y="19.5" text-anchor="middle">1</text>
+    <text class="zone" x="118.3" y="367.5" text-anchor="middle">1</text>
+    <text class="zone" x="311.0" y="19.5" text-anchor="middle">2</text>
+    <text class="zone" x="311.0" y="367.5" text-anchor="middle">2</text>
+    <line class="thin" x1="214.7" y1="10" x2="214.7" y2="22"/>
+    <line class="thin" x1="214.7" y1="358" x2="214.7" y2="370"/>
+    <text class="zone" x="503.7" y="19.5" text-anchor="middle">3</text>
+    <text class="zone" x="503.7" y="367.5" text-anchor="middle">3</text>
+    <line class="thin" x1="407.3" y1="10" x2="407.3" y2="22"/>
+    <line class="thin" x1="407.3" y1="358" x2="407.3" y2="370"/>
+    <text class="zone" x="696.3" y="19.5" text-anchor="middle">4</text>
+    <text class="zone" x="696.3" y="367.5" text-anchor="middle">4</text>
+    <line class="thin" x1="600.0" y1="10" x2="600.0" y2="22"/>
+    <line class="thin" x1="600.0" y1="358" x2="600.0" y2="370"/>
+    <text class="zone" x="889.0" y="19.5" text-anchor="middle">5</text>
+    <text class="zone" x="889.0" y="367.5" text-anchor="middle">5</text>
+    <line class="thin" x1="792.7" y1="10" x2="792.7" y2="22"/>
+    <line class="thin" x1="792.7" y1="358" x2="792.7" y2="370"/>
+    <text class="zone" x="1081.7" y="19.5" text-anchor="middle">6</text>
+    <text class="zone" x="1081.7" y="367.5" text-anchor="middle">6</text>
+    <line class="thin" x1="985.3" y1="10" x2="985.3" y2="22"/>
+    <line class="thin" x1="985.3" y1="358" x2="985.3" y2="370"/>
+    <text class="zone" x="16" y="81.0" text-anchor="middle">A</text>
+    <text class="zone" x="1184" y="81.0" text-anchor="middle">A</text>
+    <text class="zone" x="16" y="193.0" text-anchor="middle">B</text>
+    <text class="zone" x="1184" y="193.0" text-anchor="middle">B</text>
+    <line class="thin" x1="10" y1="134.0" x2="22" y2="134.0"/>
+    <line class="thin" x1="1178" y1="134.0" x2="1190" y2="134.0"/>
+    <text class="zone" x="16" y="305.0" text-anchor="middle">C</text>
+    <text class="zone" x="1184" y="305.0" text-anchor="middle">C</text>
+    <line class="thin" x1="10" y1="246.0" x2="22" y2="246.0"/>
+    <line class="thin" x1="1178" y1="246.0" x2="1190" y2="246.0"/>
+  </g>
+
+  <!-- figure caption and forward kinematics -->
+  <text class="kick" x="48" y="58">FIG. 1 — 2R PLANAR MANIPULATOR</text>
+  <text class="eq" x="48" y="86">x = l<tspan class="subs" dy="3">1</tspan><tspan dy="-3"> cos θ</tspan><tspan class="subs" dy="3">1</tspan><tspan dy="-3"> + l</tspan><tspan class="subs" dy="3">2</tspan><tspan dy="-3"> cos(θ</tspan><tspan class="subs" dy="3">1</tspan><tspan dy="-3"> + θ</tspan><tspan class="subs" dy="3">2</tspan><tspan dy="-3">)</tspan></text>
+  <text class="eq" x="48" y="108">y = l<tspan class="subs" dy="3">1</tspan><tspan dy="-3"> sin θ</tspan><tspan class="subs" dy="3">1</tspan><tspan dy="-3"> + l</tspan><tspan class="subs" dy="3">2</tspan><tspan dy="-3"> sin(θ</tspan><tspan class="subs" dy="3">1</tspan><tspan dy="-3"> + θ</tspan><tspan class="subs" dy="3">2</tspan><tspan dy="-3">)</tspan></text>
+
+  <!-- ground and target -->
+  <g>
+    <line class="ink" x1="100" y1="312" x2="250" y2="312"/>
+    <line class="thin" x1="108" y1="312" x2="100" y2="321"/>
+    <line class="thin" x1="118" y1="312" x2="110" y2="321"/>
+    <line class="thin" x1="128" y1="312" x2="120" y2="321"/>
+    <line class="thin" x1="138" y1="312" x2="130" y2="321"/>
+    <line class="thin" x1="148" y1="312" x2="140" y2="321"/>
+    <line class="thin" x1="158" y1="312" x2="150" y2="321"/>
+    <line class="thin" x1="168" y1="312" x2="160" y2="321"/>
+    <line class="thin" x1="178" y1="312" x2="170" y2="321"/>
+    <line class="thin" x1="188" y1="312" x2="180" y2="321"/>
+    <line class="thin" x1="198" y1="312" x2="190" y2="321"/>
+    <line class="thin" x1="208" y1="312" x2="200" y2="321"/>
+    <line class="thin" x1="218" y1="312" x2="210" y2="321"/>
+    <line class="thin" x1="228" y1="312" x2="220" y2="321"/>
+    <line class="thin" x1="238" y1="312" x2="230" y2="321"/>
+    <line class="thin" x1="248" y1="312" x2="240" y2="321"/>
+    <line class="ink" x1="540" y1="312" x2="630" y2="312"/>
+    <line class="thin" x1="548" y1="312" x2="540" y2="321"/>
+    <line class="thin" x1="558" y1="312" x2="550" y2="321"/>
+    <line class="thin" x1="568" y1="312" x2="560" y2="321"/>
+    <line class="thin" x1="578" y1="312" x2="570" y2="321"/>
+    <line class="thin" x1="588" y1="312" x2="580" y2="321"/>
+    <line class="thin" x1="598" y1="312" x2="590" y2="321"/>
+    <line class="thin" x1="608" y1="312" x2="600" y2="321"/>
+    <line class="thin" x1="618" y1="312" x2="610" y2="321"/>
+    <line class="thin" x1="628" y1="312" x2="620" y2="321"/>
+  </g>
+  <rect class="ink" x="580" y="286" width="30" height="26" fill="none"/>
+  <text class="lbl" x="595" y="335" text-anchor="middle">TARGET</text>
+
+  <!-- construction lines and angles -->
+  <line class="cons" x1="170.0" y1="290.0" x2="268" y2="290.0"/>
+  <path class="thin" d="M230.0 290.0 A60 60 0 0 0 216.0 251.4"/>
+  <text class="sym" x="245.2" y="268.6" text-anchor="middle">θ<tspan class="subs" dy="4">1</tspan></text>
+  <line class="cons" x1="338.5" y1="148.6" x2="392.2" y2="103.6"/>
+  <path class="thin" d="M373.8 119.0 A46 46 0 0 1 383.0 160.5"/>
+  <text class="sym" x="403.0" y="140.3" text-anchor="middle">θ<tspan class="subs" dy="4">2</tspan></text>
+
+  <!-- link dimensions -->
+  <g>
+    <line class="thin" x1="159.7" y1="277.7" x2="143.6" y2="258.6"/>
+    <line class="thin" x1="328.2" y1="136.3" x2="312.2" y2="117.2"/>
+    <line class="thin" x1="148.1" y1="264.0" x2="316.7" y2="122.5" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <text class="sym" x="221.5" y="185.2" text-anchor="middle">l<tspan class="subs" dy="4">1</tspan></text>
+    <line class="thin" x1="334.4" y1="164.0" x2="328.4" y2="186.3"/>
+    <line class="thin" x1="498.6" y1="208.0" x2="492.6" y2="230.3"/>
+    <line class="thin" x1="330.2" y1="179.5" x2="494.5" y2="223.5" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <text class="sym" x="408.0" y="222.9" text-anchor="middle">l<tspan class="subs" dy="4">2</tspan></text>
+  </g>
+
+  <!-- base -->
+  <path class="ink link" d="M150 312 L157 297 L183 297 L190 312 Z"/>
+
+  <!-- links -->
+  <g transform="translate(170.0 290.0) rotate(-40.0)">
+    <rect class="ink link" x="0" y="-10" width="220" height="20" rx="10"/>
+    <line class="center" x1="0" y1="0" x2="220" y2="0"/>
+  </g>
+  <g transform="translate(338.5 148.6) rotate(15.0)">
+    <rect class="ink link" x="0" y="-8" width="170" height="16" rx="8"/>
+    <line class="center" x1="0" y1="0" x2="170" y2="0"/>
+    <rect class="ink link" x="164" y="-12" width="10" height="24" rx="2"/><path class="ink" fill="none" d="M174 -10 H190 V-4 M174 10 H190 V4"/>
+  </g>
+
+  <!-- joints -->
+  <circle class="ink link" cx="170.0" cy="290.0" r="13"/>
+  <circle cx="170.0" cy="290.0" r="4" fill="#E8F0F8"/>
+  <circle class="ink link" cx="338.5" cy="148.6" r="11"/>
+  <circle cx="338.5" cy="148.6" r="3.5" fill="#E8F0F8"/>
+
+  <!-- tool point, planned path and target -->
+  <path class="acc" d="M524.0 198.3 C566.0 198.3, 596.0 222.3, 595 280" stroke-dasharray="4 5" marker-end="url(#arr-acc)"/>
+  <line class="acc" x1="516.0" y1="198.3" x2="532.0" y2="198.3"/>
+  <line class="acc" x1="524.0" y1="190.3" x2="524.0" y2="206.3"/>
+  <text class="eq accent-text" x="534.0" y="184.3">(x, y)</text>
+  <circle r="4.5" fill="#FFB45C">
+    <animateMotion dur="4.8s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1;1;0;0" keyTimes="0;0.42;0.55;0.95;1" keySplines="0.45 0 0.2 1;0 0 1 1;0.45 0 0.2 1;0 0 1 1" path="M524.0 198.3 C566.0 198.3, 596.0 222.3, 595 280"/>
+  </circle>
+
+  <!-- name -->
+  <text class="kick" x="662" y="82">ENGINEER · AI &amp; ROBOTICS</text>
+  <text class="name" x="656" y="150">Yash Gharat</text>
+  <text class="tag" x="662" y="188">Vision models, embedded sensors and the web</text>
+  <text class="tag" x="662" y="214">apps that turn their data into decisions.</text>
+
+  <!-- title block -->
+  <g>
+    <rect class="frame" x="640" y="236" width="530" height="104" fill="none" stroke-width="1.4"/>
+    <text class="lbl" x="648" y="248">DWG NO.</text>
+    <text class="val" x="648" y="264">YG-2R-001</text>
+    <line class="thin" x1="830" y1="236" x2="830" y2="270"/>
+    <text class="lbl" x="838" y="248">SCALE</text>
+    <text class="val" x="838" y="264">1:1</text>
+    <line class="thin" x1="940" y1="236" x2="940" y2="270"/>
+    <text class="lbl" x="948" y="248">REV.</text>
+    <text class="val" x="948" y="264">NOV 2026</text>
+    <line class="thin" x1="1070" y1="236" x2="1070" y2="270"/>
+    <text class="lbl" x="1078" y="248">SHEET</text>
+    <text class="val" x="1078" y="264">1 OF 1</text>
+    <line class="thin" x1="640" y1="270" x2="1170" y2="270"/>
+    <text class="lbl" x="648" y="282">INSTITUTION</text>
+    <text class="val" x="648" y="298">VIT CHENNAI · B.TECH CSE (AI &amp; ROBOTICS) · CLASS OF 2028</text>
+    <line class="thin" x1="640" y1="305" x2="1170" y2="305"/>
+    <text class="lbl" x="648" y="317">FOCUS</text>
+    <text class="val" x="648" y="333">COMPUTER VISION · EMBEDDED SYSTEMS · FULL-STACK</text>
+  </g>
+</svg>
